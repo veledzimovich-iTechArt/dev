@@ -1,7 +1,7 @@
 # User settings
 
 ```bash
-cp settings.json ~/Library/Application Support/Code/User
+cp settings.json ~/Library/Application\ Support/Code/User/
 ```
 
 # Project settings
