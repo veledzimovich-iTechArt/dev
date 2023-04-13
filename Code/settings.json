@@ -1,0 +1,51 @@
+{
+    "editor.minimap.enabled": false,
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 14,
+    "workbench.preferredDarkColorTheme": "Monokai Night",
+    "workbench.preferredHighContrastColorTheme": "Monokai Night",
+    "workbench.preferredHighContrastLightColorTheme": "Monokai Night",
+    "workbench.preferredLightColorTheme": "Monokai Night",
+    "files.insertFinalNewline": true,
+    "editor.rulers": [
+
+        80
+    ],
+    "workbench.colorCustomizations": {
+        "[Monokai Night]": {
+            "tab.activeForeground": "#ffffff",
+            "tab.inactiveForeground": "#aaaaaa",
+            "tab.hoverForeground": "#dddddd",
+            "tab.hoverBackground": "#333333",
+            "tab.activeBackground": "#555555",
+            "panel.border": "#888888",
+            "sideBar.border": "#888888",
+            "editorGroup.border": "#888888",
+            "terminal.border": "#888888",
+            "scrollbarSlider.activeBackground": "#aaaaaa",
+            "scrollbarSlider.hoverBackground": "#aaaaaa",
+            "scrollbarSlider.background": "#888888",
+            "editorRuler.foreground": "#4488ff"
+        },
+        "scrollbarSlider.activeBackground": "#aaaaaa",
+        "scrollbarSlider.hoverBackground": "#aaaaaa",
+        "scrollbarSlider.background": "#888888",
+        "editorRuler.foreground": "#4488ff"
+    },
+    "files.trimTrailingWhitespace": true,
+    "sourcery.token": "user_ukjKX0f0EW4rhMhr4NDAY8BMiNDsKWEAj5SD0W2jDOhjtB6cmJtUh_01kp8",
+    "python.languageServer": "Pylance",
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "workbench.colorTheme": "Monokai Night",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modifications",
+    "terminal.integrated.defaultProfile.osx": "bash",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.minimap.maxColumn": 80,
+    "editor.fontLigatures": false,
+    "editor.fontVariations": false,
+}

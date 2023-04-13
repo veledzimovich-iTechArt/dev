@@ -1,0 +1,78 @@
+{
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "actionButtons": {
+        "defaultColor": "yellow",
+        "loadNpmCommands": false,
+        "reloadButton": "♻️",
+        "commands": [
+            // {
+            //     "cwd": "${workspaceFolder}",
+            //     "name": "DB",
+            //     "color": "yellow",
+            //     "singleInstance": true,
+            //     // postgresdb=$(ps aux | grep postgres | grep -- -D | cut -d "D" -f2 | xargs echo -n)
+            //     "command": "eval pdbdir=\"~/Library/Application\\ Support/Postgres/var-15\" && pg_ctl -D \"$pdbdir\" start",
+            // },
+            // {
+            //     "cwd": "${workspaceFolder}",
+            //     "name": "REDIS",
+            //     "color": "yellow",
+            //     "singleInstance": true,
+            //     // "command": "redis-server --dbfilename dump.rdb --dir ${workspaceFolder} --daemonize yes"
+            //     "command": "redis-server --dbfilename dump.rdb --dir ${workspaceFolder}"
+            // },
+            // {
+            //     "cwd": "${workspaceFolder}/backend",
+            //     "name": "CELERY",
+            //     "color": "yellow",
+            //     "singleInstance": true,
+            //     // --loglevel=warning -f celery.logs
+            //     "command": "${workspaceFolder}/venv/bin/celery  -A api worker --loglevel=INFO  --concurrency=2 -B -s ${workspaceFolder}/celerybeat-schedule"
+            // },
+            // {
+            //     "cwd": "${workspaceFolder}/backend/",
+            //     "name": "DJANGO",
+            //     "color": "yellow",
+            //     "command": "${workspaceFolder}/venv/bin/python3 manage.py runserver 0.0.0.0:8000",
+            // },
+            // {
+            //     "cwd": "${workspaceFolder}/frontend/",
+            //     "name": "NPM",
+            //     "color": "yellow",
+            //     "singleInstance": true,
+            //     "command": "npm start"
+            // },
+            {
+                "cwd": "${workspaceFolder}/backend/",
+                "name": "FL8",
+                "color": "#4488ff",
+                "singleInstance": true,
+                "command": "${workspaceFolder}/venv/bin/flake8 $(git diff --name-only HEAD)"
+            },
+            {
+                "cwd": "${workspaceFolder}/backend/",
+                "name": "Tests",
+                "color": "#4488ff",
+                // "command": "${workspaceFolder}/venv/bin/python3 manage.py test",
+                "command": "${workspaceFolder}/venv/bin/pytest -rf ."
+            },
+            // {
+            //     "cwd": "${workspaceFolder}/backend/",
+            //     "name": "PROFILER",
+            //     "color": "orange",
+            //     "command": "${workspaceFolder}/venv/bin/mprof run ${workspaceFolder}/venv/bin/python3 manage.py runserver 0.0.0.0:8000",
+            // },
+        ]
+    },
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.testing.pytestArgs": [
+        "backend"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 14,
+    "editor.formatOnType": true
+}
