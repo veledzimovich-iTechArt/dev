@@ -1,0 +1,16 @@
+[flake8]
+ignore =
+    D100,D101,D102,D103,D104,D105,D106,D107,D200,D210,D205,D202,D400,D401,D403,
+    D208,I100,I001,I101,I201,C812,Q000,E800,W503,C401,C815,B010,C408,A003,
+    C416,C407,D204,D209,B009,C819,B007,Q003,A002,A001,F541,A001,C816,C819,B006,
+    B008,Q001,C403
+per-file-ignores =
+    **/test*.py:E501
+exclude =
+    .gitignore,
+    .git,
+    __pycache__,
+    *json*
+filename = migrations
+max-complexity = 10
+max-line-length = 100
