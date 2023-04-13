@@ -1,21 +1,4 @@
-# configs
-
-Code
-
-codesetup
-
-flake8
-
-gitignore
-
-requirements.txt
-
-sourcery.yaml
-
-# Setup VS Code
-
-- manually
-```bash
+#!/usr/bin/env bash
 # Open VS Code terminal (ctrl+shift+`)
 curl -L https://github.com/veledzimovich-iTechArt/dev/archive/refs/heads/master.zip --output dev-master.zip
 unzip dev-master.zip
@@ -28,8 +11,3 @@ cp dev-master/flake8 .flake8
 cp dev-master/sourcery.yaml .sourcery.yaml
 rm -rf dev-master/
 rm -rf dev-master.zip
-```
-- automatically
-```bash
-./codesetup
-```
