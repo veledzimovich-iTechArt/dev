@@ -8,7 +8,6 @@
     "workbench.preferredLightColorTheme": "Monokai Night",
     "files.insertFinalNewline": true,
     "editor.rulers": [
-
         80
     ],
     "workbench.colorCustomizations": {
